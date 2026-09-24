@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-catalogueoflife",
-  "version": "0.1.0",
-  "description": "Catalogue of Life — global taxonomic index of known species (~2.2M accepted names)",
+  "version": "0.1.1",
+  "description": "Catalogue of Life MCP — global taxonomic index.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-catalogueoflife": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "catalogueoflife"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-catalogueoflife"
+    "url": "git+https://github.com/pipeworx-io/mcp-catalogueoflife.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-eeabb486cb498c008bb9041422739bcbd0eea3c461b356f8f9a1723043bdd5f0",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
