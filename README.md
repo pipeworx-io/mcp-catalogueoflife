@@ -2,7 +2,7 @@
 
 [Catalogue of Life](https://www.catalogueoflife.org) MCP — the global taxonomic index of known species (~2.2 M accepted names). Wraps the ChecklistBank API that backs COL. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1679+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1683+ live data sources.
 
 The default dataset is `3LR` (the latest COL release). Pass `dataset` to override (e.g. `3` for the editorial-state COL dataset, or any ChecklistBank dataset key).
 
@@ -65,7 +65,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1679+ data sources. The
+Both URLs reach the same gateway and the same 1683+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

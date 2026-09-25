@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/catalogueoflife",
   "title": "Catalogueoflife",
   "description": "Catalogue of Life MCP — global taxonomic index.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/catalogueoflife",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-catalogueoflife",
