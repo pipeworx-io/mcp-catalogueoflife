@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-catalogueoflife",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Catalogue of Life MCP — global taxonomic index.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "catalogueoflife",
     "gatewaySlug": "catalogueoflife",
-    "sourceHash": "v1-c88705131d31612959e5c688c51eae89a92da9e0e0347b142387db43f8f19584",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-16292d3cc38a595da3c9d6804db3deafa61b977be5a68672e663490e17d9edf9",
+    "sourceCommit": "547a3983b42dacf4389ca474860b0a1dee8e6053"
   }
 }
